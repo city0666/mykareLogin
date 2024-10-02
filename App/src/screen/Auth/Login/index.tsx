@@ -213,7 +213,7 @@ const Login = () => {
                                 screen: Navigations.offers,
                             })
                         }>
-                        <Text style={styles.forgotText}>Forgot Password?</Text>
+                        <Text style={styles.forgotText}>  </Text>
                     </Pressable>
                 </View>
                 <View style={styles.bottomWrap}>
