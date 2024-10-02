@@ -9,12 +9,27 @@
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* mykareTaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* mykareTaskTests.m */; };
 		0C80B921A6F3F58F76C31292 /* libPods-mykareTask.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-mykareTask.a */; };
+		10DDE0013AFE4F409950FBB6 /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CECB59C110E44D0298CB6A0A /* Rubik-Medium.ttf */; };
+		13042F359AA945D0A530C63A /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A95B6C4999848A291F90E7A /* Inter-ExtraLight.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		14A6EF1DAC36465F91E56FEE /* Rubik-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21D1F46C1D2D492FB0079406 /* Rubik-SemiBold.ttf */; };
+		1E82EDC0CCA24E0A8BE7E023 /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7803606E69354CC2BE113C92 /* Inter-Thin.ttf */; };
 		3342CCB6ECCA3088F73081F6 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 22C9B3F717179C8297E5892B /* PrivacyInfo.xcprivacy */; };
+		4F01AC197D054220A5A0D644 /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DEC119E7FDF94ECA9D2418B4 /* Rubik-Bold.ttf */; };
+		5E5A7CCF8A874513A1990C00 /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 73FD8AA19DFC460E94958291 /* Inter-Light.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-mykareTask-mykareTaskTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-mykareTask-mykareTaskTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8F6A524D19374F33B0EAE17F /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D4F87B264C24493B9FE4C63 /* Inter-ExtraBold.ttf */; };
+		9202D25340634C2CB01DD69F /* Rubik-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 15055EAFC78143578A8AC694 /* Rubik-Light.ttf */; };
+		943430F2CFB643D68F8D549C /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 770B6701EFEE4D8C85247C34 /* Inter-Bold.ttf */; };
+		A15257EAF7D84BE18D5A39B8 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E8A5A7C619E4713BD3BF98A /* Inter-Regular.ttf */; };
+		C1019434D9244494A5E5906F /* Rubik-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D7D762595E04AA9AA8C4D5C /* Rubik-ExtraBold.ttf */; };
+		D14456B248444B46A5DAC1F6 /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 003A746AF5864E6F80A5244C /* Inter-Black.ttf */; };
+		DA066C5C7CDB465F886FC396 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CE0C5B61AFA49C4BF5FD188 /* Inter-SemiBold.ttf */; };
+		FA6A78AAF85A42A7B0A030B3 /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 75BBD149FA464EBD831CE4BA /* Rubik-Regular.ttf */; };
+		FE7F59AAD2B043AEA18CCB17 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C6631BB8F2542538AA59494 /* Inter-Medium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,9 +43,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		003A746AF5864E6F80A5244C /* Inter-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Black.ttf"; path = "../App/src/assets/fonts/Inter-Black.ttf"; sourceTree = "<group>"; };
 		00E356EE1AD99517003FC87E /* mykareTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mykareTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* mykareTaskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mykareTaskTests.m; sourceTree = "<group>"; };
+		0A95B6C4999848A291F90E7A /* Inter-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-ExtraLight.ttf"; path = "../App/src/assets/fonts/Inter-ExtraLight.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* mykareTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mykareTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = mykareTask/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = mykareTask/AppDelegate.mm; sourceTree = "<group>"; };
@@ -38,14 +55,27 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = mykareTask/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = mykareTask/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = mykareTask/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		15055EAFC78143578A8AC694 /* Rubik-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Light.ttf"; path = "../App/src/assets/fonts/Rubik-Light.ttf"; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-mykareTask-mykareTaskTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mykareTask-mykareTaskTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21D1F46C1D2D492FB0079406 /* Rubik-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-SemiBold.ttf"; path = "../App/src/assets/fonts/Rubik-SemiBold.ttf"; sourceTree = "<group>"; };
 		22C9B3F717179C8297E5892B /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = mykareTask/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		2C6631BB8F2542538AA59494 /* Inter-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Medium.ttf"; path = "../App/src/assets/fonts/Inter-Medium.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-mykareTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mykareTask.debug.xcconfig"; path = "Target Support Files/Pods-mykareTask/Pods-mykareTask.debug.xcconfig"; sourceTree = "<group>"; };
+		3CE0C5B61AFA49C4BF5FD188 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-SemiBold.ttf"; path = "../App/src/assets/fonts/Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		3D7D762595E04AA9AA8C4D5C /* Rubik-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-ExtraBold.ttf"; path = "../App/src/assets/fonts/Rubik-ExtraBold.ttf"; sourceTree = "<group>"; };
+		4D4F87B264C24493B9FE4C63 /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-ExtraBold.ttf"; path = "../App/src/assets/fonts/Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-mykareTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mykareTask.release.xcconfig"; path = "Target Support Files/Pods-mykareTask/Pods-mykareTask.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-mykareTask-mykareTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mykareTask-mykareTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-mykareTask-mykareTaskTests/Pods-mykareTask-mykareTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-mykareTask.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mykareTask.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73FD8AA19DFC460E94958291 /* Inter-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Light.ttf"; path = "../App/src/assets/fonts/Inter-Light.ttf"; sourceTree = "<group>"; };
+		75BBD149FA464EBD831CE4BA /* Rubik-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Regular.ttf"; path = "../App/src/assets/fonts/Rubik-Regular.ttf"; sourceTree = "<group>"; };
+		770B6701EFEE4D8C85247C34 /* Inter-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Bold.ttf"; path = "../App/src/assets/fonts/Inter-Bold.ttf"; sourceTree = "<group>"; };
+		7803606E69354CC2BE113C92 /* Inter-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Thin.ttf"; path = "../App/src/assets/fonts/Inter-Thin.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = mykareTask/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-mykareTask-mykareTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mykareTask-mykareTaskTests.release.xcconfig"; path = "Target Support Files/Pods-mykareTask-mykareTaskTests/Pods-mykareTask-mykareTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		8E8A5A7C619E4713BD3BF98A /* Inter-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Regular.ttf"; path = "../App/src/assets/fonts/Inter-Regular.ttf"; sourceTree = "<group>"; };
+		CECB59C110E44D0298CB6A0A /* Rubik-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Medium.ttf"; path = "../App/src/assets/fonts/Rubik-Medium.ttf"; sourceTree = "<group>"; };
+		DEC119E7FDF94ECA9D2418B4 /* Rubik-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Bold.ttf"; path = "../App/src/assets/fonts/Rubik-Bold.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -127,6 +157,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				8ADABA69654142E1870AE3E4 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -140,6 +171,29 @@
 				00E356EE1AD99517003FC87E /* mykareTaskTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		8ADABA69654142E1870AE3E4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				003A746AF5864E6F80A5244C /* Inter-Black.ttf */,
+				770B6701EFEE4D8C85247C34 /* Inter-Bold.ttf */,
+				4D4F87B264C24493B9FE4C63 /* Inter-ExtraBold.ttf */,
+				0A95B6C4999848A291F90E7A /* Inter-ExtraLight.ttf */,
+				73FD8AA19DFC460E94958291 /* Inter-Light.ttf */,
+				2C6631BB8F2542538AA59494 /* Inter-Medium.ttf */,
+				8E8A5A7C619E4713BD3BF98A /* Inter-Regular.ttf */,
+				3CE0C5B61AFA49C4BF5FD188 /* Inter-SemiBold.ttf */,
+				7803606E69354CC2BE113C92 /* Inter-Thin.ttf */,
+				DEC119E7FDF94ECA9D2418B4 /* Rubik-Bold.ttf */,
+				3D7D762595E04AA9AA8C4D5C /* Rubik-ExtraBold.ttf */,
+				15055EAFC78143578A8AC694 /* Rubik-Light.ttf */,
+				CECB59C110E44D0298CB6A0A /* Rubik-Medium.ttf */,
+				75BBD149FA464EBD831CE4BA /* Rubik-Regular.ttf */,
+				21D1F46C1D2D492FB0079406 /* Rubik-SemiBold.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
@@ -249,6 +303,21 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3342CCB6ECCA3088F73081F6 /* PrivacyInfo.xcprivacy in Resources */,
+				D14456B248444B46A5DAC1F6 /* Inter-Black.ttf in Resources */,
+				943430F2CFB643D68F8D549C /* Inter-Bold.ttf in Resources */,
+				8F6A524D19374F33B0EAE17F /* Inter-ExtraBold.ttf in Resources */,
+				13042F359AA945D0A530C63A /* Inter-ExtraLight.ttf in Resources */,
+				5E5A7CCF8A874513A1990C00 /* Inter-Light.ttf in Resources */,
+				FE7F59AAD2B043AEA18CCB17 /* Inter-Medium.ttf in Resources */,
+				A15257EAF7D84BE18D5A39B8 /* Inter-Regular.ttf in Resources */,
+				DA066C5C7CDB465F886FC396 /* Inter-SemiBold.ttf in Resources */,
+				1E82EDC0CCA24E0A8BE7E023 /* Inter-Thin.ttf in Resources */,
+				4F01AC197D054220A5A0D644 /* Rubik-Bold.ttf in Resources */,
+				C1019434D9244494A5E5906F /* Rubik-ExtraBold.ttf in Resources */,
+				9202D25340634C2CB01DD69F /* Rubik-Light.ttf in Resources */,
+				10DDE0013AFE4F409950FBB6 /* Rubik-Medium.ttf in Resources */,
+				FA6A78AAF85A42A7B0A030B3 /* Rubik-Regular.ttf in Resources */,
+				14A6EF1DAC36465F91E56FEE /* Rubik-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

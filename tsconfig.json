@@ -1,3 +1,70 @@
+// {
+//   "extends": "@react-native/typescript-config/tsconfig.json"
+// }
 {
-  "extends": "@react-native/typescript-config/tsconfig.json"
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "noEmit": true,
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "jsx": "react-native",
+    "lib": [
+      "es6",
+      "dom",
+      "esnext"
+    ],
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "paths": {
+      "@app/components/*": [
+        "./App/src/components/*"
+      ],
+      "@app/constants/*": [
+        "./App/src/constants/*"
+      ],
+      "@app/assets/*": [
+        "./App/src/assets/*"
+      ],
+      "@app/screen/*": [
+        "./App/src/screen/*"
+      ],
+      "@app/navigations/*": [
+        "./App/src/navigations/*"
+      ],
+      "@app/utils/*": [
+        "./App/src/utils/*"
+      ],
+      "@app/quarys/*": [
+        "./App/src/quarys/*"
+      ],
+      "@app/config/*": [
+        "./App/src/config/*"
+      ],
+      "@app/services/*": [
+        "./App/src/services/*"
+      ],
+      "@app/hooks/*": [
+        "./App/src/hooks/*"
+      ],
+      "@app/recoils/*": [
+        "./App/src/recoils/*"
+      ],
+      "@app/apis/*": [
+        "src/apis/*"
+      ],
+      "@app/query/*": [
+        "src/query/*"
+      ],
+    }
+  },
+  "include": [
+    "src/**/*",
+    "./App.tsx"
+  ],
+  //  "extends": "expo/tsconfig.base"
 }
